@@ -1,0 +1,110 @@
+html{
+    background:#EFEFEF ;
+}
+
+.header{
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(https://www.sololearn.com/Uploads/header.jpg);
+}
+
+.header > h1{
+    color: white;   
+}
+
+.header > img{
+    width: 50px;
+    border-radius: 1.5rem;
+}
+
+.about{
+    margin: 10px 5px;
+    padding: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+}
+
+.h1{
+    color: #20BCD5;
+    border: 2px dashed #20BCD5;
+    padding: .5rem 1.2rem;
+}
+
+.cita{
+    align-self: flex-end;
+}
+
+.skills{
+    margin: 10px 5px;
+    padding: 3rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+}
+
+table{
+    width: 100%;
+}
+
+table, tr, td{
+    text-align: center ;
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: .2rem;
+}
+
+.select{
+    background: orange;
+    color: white;
+}
+
+progress{
+    width: 25rem;
+    height: 1.3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input{
+    width: 25rem;
+    height: 2rem;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+button{
+    background: #3A3F44;
+    border-radius: 5px;
+    height: 2.3rem;
+    color: white;
+}
+
+button:hover{
+    background: #ed677b ;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso 1</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+        <div class='header'>
+                <img src="https://lh3.googleusercontent.com/ogw/ADGmqu-5rBRGlgF_0Etdy2I-L-xcArNnYRofczW1LSaL=s32-c-mo"
+                        alt="photo">
+                <h1 id='nombre'>Andres Plaza</h1>
+        </div>
+
+        <div class='about'>
+                <h1 class="h1">About Me</h1>
+                <p>Hey! I'm <strong>Andrés Plaza</strong>. Coding has changed my world. It's not just about apps.
+                        Learning to code gave me
+                        problem-solving skills and a way to communicate with others on a technical level. I can also
+                        develop websites and use my coding skills to get a better job. And I learned it all at SoloLearn
+                        where they build your self-esteem and keep you motivated. Join me in this rewarding journey.
+                        You'll have fun, get help, and learn along the way!</p>
+                <p class='cita'> <strong>"Declare variables, not war" </strong></p>
+        </div>
+
+        <div class='skills'>
+                <h1 class="h1">My Coding Schedule</h1>
+                <table>
+                        <tr>
+                                <td>DAY</td>
+                                <td>Mon</td>
+                                <td>Tue</td>
+                                <td>Wed</td>
+                                <td>Thu</td>
+                                <td>Fri</td>
+                        </tr>
+                        <tr>
+                                <td>8:30</td>
+                                <td class='select'>learn</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                        </tr>
+                        <tr>
+                                <td>9:10</td>
+                                <td></td>
+                                <td class="select">practice</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                        </tr>
+                        <tr>
+                                <td>11:00</td>
+                                <td></td>
+                                <td></td>
+                                <td class="select">study</td>
+                                <td></td>
+                                <td></td>
+                        </tr>
+                        <tr>
+                                <td>1:30</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="select">school</td>
+                                <td></td>
+                        </tr>
+                        <tr>
+                                <td>3:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="select">Free</td>
+                        </tr>
+                </table>
+        </div>
+
+        <div class="about">
+                <h1 class='h1'>Skills</h1>
+                <div>
+                        <p>HTML</p>
+                        <progress min="0" max="100" value="100"></progress>
+                        <p>Python</p>
+                        <progress min="0" max="100" value="60"></progress>
+                        <p>Javascript</p>
+                        <progress min="0" max="100" value="80"></progress>
+                </div>
+        </div>
+
+        <div class="about">
+                <h1 class="h1"> Videos </h1>
+                <iframe width="600" height="327" src="https://www.youtube.com/embed/9PGfL4t-uqE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+        </div>
+
+        <div class="about">
+
+                <h1 class="h1"> contact </h1>
+                <form action="">
+                        <input type="email" name="email" id="email" placeholder="email">
+                        <input type="text" name="contact" id="contact" placeholder="contact">
+                        <input type="text" name="name" id="name" placeholder="name">
+                        <button onclick=funcion(event)></button>
+                </form>
+        </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+                emailjs.init('user_7WGsNgHCIsOUAgfXmbLIU')
+        </script>
+</body>
+
+</html>
